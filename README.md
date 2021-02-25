@@ -4,7 +4,7 @@
  ![state diagram](https://github.com/elaquiambao/GBC-dApp1-CarAccidentInsuranceClaim/blob/main/images/car-insurance-claim.jpg)
 
 ## State Data ##
-States: [“No Claim”, “Claim Form Filled-out”, “Claim Under Evaluation”, "Received Claim”]
+```States: [“No Claim”, “Claim Form Filled-out”, “Claim Under Evaluation”, “Received Claim”]
 State: 0
 Name: “”
 Policy Number: “”
@@ -32,6 +32,8 @@ Accident Details: {
   }
  }
  Investigating Officer: “”
+ ```
+
 
 
 ## State Transition ##
