@@ -7,7 +7,8 @@
 ```
 States: [“No Claim”, “Claim Form Filled-out”, “Claim Under Evaluation”, “Received Claim”]
 State: 0
-Name: “”
+Claim Number: “”
+Driver: “”
 Policy Number: “”
 Car Details: {
 	Make: “”,
@@ -32,7 +33,7 @@ Accident Details: {
    Insurance Policy Number: “” 
   }
  }
- Investigating Officer: “”
+Investigating Officer: “”
  ```
 
 
