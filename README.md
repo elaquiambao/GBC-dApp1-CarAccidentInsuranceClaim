@@ -1,14 +1,14 @@
 # Car Accident Insurance Claim #
 
 ## State Transition Diagram ##
- ![state diagram](https://github.com/elaquiambao/GBC-dApp1-CarAccidentInsuranceClaim/blob/main/images/car-insurance-claim.jpg)
+ ![state diagram](https://github.com/elaquiambao/GBC-dApp1-CarAccidentInsuranceClaim/blob/main/images/car-insurance-claim.jpg:raw=true)
 
 ## State Data ##
 ```
 States: [“No Claim”, “Claim Form Filled-out”, “Claim Under Evaluation”, “Received Claim”]
 State: 0
 Claim Number: “”
-Driver: “”
+Policy Holder: “”
 Policy Number: “”
 Car Details: {
 	Make: “”,
@@ -25,8 +25,8 @@ Accident Details: {
 	Number of passengers involved: “”,
 	Extent of damage to the vehicle: “”,
 	Description of the accident: “”,
- Other Driver: [“Driver 1”, “Driver 2”, .. Driver n”],
- Other Driver Details: {
+ Drivers: [“Driver 1”, “Driver 2”, .. Driver n”],
+ Driver Details: {
    Name: “”,
    License Number: “”,
    Insurance Company: “”,
@@ -38,12 +38,18 @@ Investigating Officer: “”
 
 
 
-## State Transition ##
-#### Transitions ####
+## Transition Functions and Roles ##
 
-#### Functions ####
+Transition/Function | Role
+------------------- | ----
+FillClaimForm (ClaimNumber) | Policy Holder
+SubmitClaim(ClaimNumber) | Policy Holder
+Incomplete(ClaimNumber) | System/Claims Adjuster
+Disapproved(ClaimNumber) | System
+Approved(ClaimNumber, AmountClaimed) | System
+CheckClaim(ClaimNumber) | System
+CheckStatus(ClaimNumber) | Policy Holder/System/Police
 
-## Roles
 
 ### Student Information
 
