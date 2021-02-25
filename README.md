@@ -15,8 +15,8 @@ Car Details: {
 	Model: “”,
 	Year: “”,
 	Registration: “”,
- License Plate Number: “” 
-	}
+ 	License Plate Number: “” 
+}
 Accident Details: {
 	Date: “”,
 	Time: “”,
@@ -25,15 +25,15 @@ Accident Details: {
 	Number of passengers involved: “”,
 	Extent of damage to the vehicle: “”,
 	Description of the accident: “”,
- Drivers: [“Driver 1”, “Driver 2”, .. Driver n”],
- Driver Details: {
-   Name: “”,
-   License Number: “”,
-   Insurance Company: “”,
-   Insurance Policy Number: “” 
-  }
+ 	Drivers: [“Driver 1”, “Driver 2”, .. Driver n”],
+ 	Driver Details: {
+   		Name: “”,
+   		License Number: “”,
+   		Insurance Company: “”,
+		Insurance Policy Number: “” 
+  	}
+	Investigating Officer: “”
  }
-Investigating Officer: “”
  ```
 
 
@@ -42,13 +42,13 @@ Investigating Officer: “”
 
 Transition/Function | Role
 ------------------- | ----
-FillClaimForm (ClaimNumber) | Policy Holder
-SubmitClaim(ClaimNumber) | Broker/Agent/Insurance Company
-Incomplete(ClaimNumber) | System/Claims Adjuster
-Disapproved(ClaimNumber) | System
-Approved(ClaimNumber, AmountClaimed) | System
-CheckClaimInfo(ClaimNumber) | Policy Holder, Insurance Comapany, Police
-CheckStatus(ClaimNumber) | Policy Holder, Insurance Company
+FillClaimForm | Policy Holder
+SubmitClaim | Broker/Agent/Insurance Company
+Incomplete | System/Claims Adjuster
+Disapproved | System
+Approved | System
+CheckClaimInfo | Policy Holder, Insurance Comapany, Police
+CheckStatus | Policy Holder, Insurance Company
 
 
 ### Student Information
