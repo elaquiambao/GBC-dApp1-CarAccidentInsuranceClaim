@@ -43,12 +43,12 @@ Investigating Officer: “”
 Transition/Function | Role
 ------------------- | ----
 FillClaimForm (ClaimNumber) | Policy Holder
-SubmitClaim(ClaimNumber) | Policy Holder
+SubmitClaim(ClaimNumber) | Broker/Agent/Insurance Company
 Incomplete(ClaimNumber) | System/Claims Adjuster
 Disapproved(ClaimNumber) | System
 Approved(ClaimNumber, AmountClaimed) | System
-CheckClaim(ClaimNumber) | System
-CheckStatus(ClaimNumber) | Policy Holder/System/Police
+CheckClaimInfo(ClaimNumber) | Policy Holder, Insurance Comapany, Police
+CheckStatus(ClaimNumber) | Policy Holder, Insurance Company
 
 
 ### Student Information
