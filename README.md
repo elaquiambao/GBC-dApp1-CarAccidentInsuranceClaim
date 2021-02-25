@@ -1,7 +1,7 @@
 # Car Accident Insurance Claim
 
 ## State Transition Diagram
- ![state diagram](https://github.com/elaquiambao/images/car-insurance-claim.jpg)
+ ![state diagram](https://github.com/elaquiambao/GBC-dApp1-CarAccidentInsuranceClaim/blob/main/images/car-insurance-claim.jpg)
 
 ## State Data
 
