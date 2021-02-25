@@ -22,7 +22,7 @@ Accident Details: {
 	Time: “”,
 	Location: “”,
 	Extent of any injuries: “”,
-	Number of passengers involved: “”,
+	Number of passengers: “”,
 	Extent of damage to the vehicle: “”,
 	Description of the accident: “”,
  	Drivers: [“Driver 1”, “Driver 2”, .. Driver n”],
