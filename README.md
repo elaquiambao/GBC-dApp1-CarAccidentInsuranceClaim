@@ -50,7 +50,7 @@ Approved | System
 CheckClaimInfo | Policy Holder, Insurance Comapany, Police
 CheckStatus | Policy Holder, Insurance Company
 
-**Status: Ongoing** 
+
 
 ### Student Information
 
@@ -58,3 +58,4 @@ Name:       | Elanie Quiambao
 ------------|------------
 Student Id: | 101339344
 
+**Status: Ongoing** 
