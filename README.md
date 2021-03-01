@@ -50,6 +50,7 @@ Approved | System
 CheckClaimInfo | Policy Holder, Insurance Comapany, Police
 CheckStatus | Policy Holder, Insurance Company
 
+**Status: Ongoing** 
 
 ### Student Information
 
